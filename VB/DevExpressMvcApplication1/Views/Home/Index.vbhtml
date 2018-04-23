@@ -1,0 +1,29 @@
+﻿@Code
+	ViewBag.Title = "Home Page"
+End Code
+
+<h2>@ViewBag.Message</h2>
+<p>
+	To learn more about DevExpress Extensions for ASP.NET MVC visit <a href="http://devexpress.com/Products/NET/Controls/ASP-NET-MVC/"
+		title="ASP.NET MVC Website">http://devexpress.com/Products/NET/Controls/ASP-NET-MVC/</a>.
+</p>
+<script language="javascript" type="text/javascript">
+	function OnEndCallback(s, e) {
+		if (!!s.cpRecordIsModified && s.cpRecordIsModified) {
+			if (confirm("Recond has been updated by another user. Do you wish to override user changed?")) {
+				forceUpdate = true;
+				delete s.cpRecordIsModified;
+				s.UpdateEdit();
+			}
+		}
+	}
+	var forceUpdate = false;
+	function OnBeginCallback(s, e) {
+		if (forceUpdate) {
+			e.customArgs["forceUpdate"] = true;
+			forceUpdate = false;
+		}
+	}
+</script>
+@ModelType System.Collections.IEnumerable
+@Html.Partial("GridView", Model)
