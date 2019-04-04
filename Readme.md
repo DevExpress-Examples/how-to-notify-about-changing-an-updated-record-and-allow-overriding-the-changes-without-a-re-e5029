@@ -3,7 +3,7 @@
 
 * [HomeController.cs](./CS/DevExpressMvcApplication1/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/DevExpressMvcApplication1/Controllers/HomeController.vb))
 * [Global.asax](./CS/DevExpressMvcApplication1/Global.asax) (VB: [Global.asax](./VB/DevExpressMvcApplication1/Global.asax))
-* [Global.asax.cs](./CS/DevExpressMvcApplication1/Global.asax.cs) (VB: [Global.asax](./VB/DevExpressMvcApplication1/Global.asax))
+* [Global.asax.cs](./CS/DevExpressMvcApplication1/Global.asax.cs) (VB: [Global.asax.vb](./VB/DevExpressMvcApplication1/Global.asax.vb))
 * [Categories.cs](./CS/DevExpressMvcApplication1/Models/Categories.cs) (VB: [Categories.vb](./VB/DevExpressMvcApplication1/Models/Categories.vb))
 * [Northwind.cs](./CS/DevExpressMvcApplication1/Models/Northwind.cs) (VB: [Northwind.vb](./VB/DevExpressMvcApplication1/Models/Northwind.vb))
 <!-- default file list end -->
