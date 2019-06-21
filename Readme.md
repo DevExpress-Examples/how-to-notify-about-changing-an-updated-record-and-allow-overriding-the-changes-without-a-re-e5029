@@ -6,6 +6,9 @@
 * [Index.cshtml](./CS/DevExpressMvcApplication1/Views/Home/Index.cshtml)
 <!-- default file list end -->
 # How to notify about changing an updated record and allow overriding the changes without a refresh
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e5029/)**
+<!-- run online end -->
 
 
 <p>The example demonstrates a solution for the following task.</p><br />
